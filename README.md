@@ -93,7 +93,7 @@ MT->save(Out);
 Out.close();
 ```
 
-### Load model weights
+### Loading model weights
 
 ```C++
 std::ifstream In(WEIGHTS_PATH, std::ios::binary);
@@ -179,7 +179,7 @@ struct L2Info {
 #### Intel Core i5-11500
 
 + **Theoretical GFLOPS**
-  + 4.6 GHz $\times$ 8 floats $\times$ 2 FMA units $\times$ 2 ops (fmul + fadd) $=$ 147.2 GFLOPS
+  + 4.6 GHz × 8 floats × 2 FMA units × 2 ops (fmul + fadd) = 147.2 GFLOPS
 + **Operating System**
   + Ubuntu 22.04.1
 + **Comparison**
@@ -228,8 +228,8 @@ struct L2Info {
 #### Intel Core Ultra 7 258V
 
 + **Theoretical GFLOPS**
-  + **P-Core**: 4.8 GHz $\times$ 8 floats $\times$ 2 FMA units $\times$ 2 ops (fmul + fadd) $=$ 153.6 GFLOPS
-  + **E-Core**: 3.7 GHz $\times$ 4 floats $\times$ 4 FMA units $\times$ 2 ops (fmul + fadd) $=$ 118.4 GFLOPS
+  + **P-Core**: 4.8 GHz × 8 floats × 2 FMA units × 2 ops (fmul + fadd) = 153.6 GFLOPS
+  + **E-Core**: 3.7 GHz × 4 floats × 4 FMA units × 2 ops (fmul + fadd) = 118.4 GFLOPS
 + **Operating System**
   + Ubuntu 24.04.2
 + **Comparison**
@@ -278,8 +278,8 @@ struct L2Info {
 #### Apple M2 (8GB)
 
 + **Theoretical GFLOPS**
-  + **P-Core**: 3.49 GHz $\times$ 4 floats $\times$ 4 FMA units $\times$ 2 ops (fmul + fadd) $=$ 111.68 GFLOPs
-  + **E-Core**: 2.42 GHz $\times$ 4 floats $\times$ 2 FMA units $\times$ 2 ops (fmul + fadd) $=$ 38.72 GFLOPs
+  + **P-Core**: 3.49 GHz × 4 floats × 4 FMA units × 2 ops (fmul + fadd) = 111.68 GFLOPs
+  + **E-Core**: 2.42 GHz × 4 floats × 2 FMA units × 2 ops (fmul + fadd) = 38.72 GFLOPs
 + **Operating System**
   + macOS Sonoma 14.4.1
 + **Comparison**
